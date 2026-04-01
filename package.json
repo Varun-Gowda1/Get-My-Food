@@ -17,14 +17,14 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html --no-cache --low-memory",
-    "build": "npx parcel build index.html --public-url ./ --no-cache --no-source-maps --low-memory"
+    "build": "npx parcel build index.html --public-url ./ --no-cache --no-source-maps "
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
     "@tailwindcss/postcss": "^4.2.1",
-    "@testing-library/jest-dom": "^6.9.1",
+
     "install": "^0.13.0",
-    "jest-environment-jsdom": "^30.3.0",
+
     "npm": "^11.11.0",
     "parcel": "^2.16.4",
     "react": "^19.2.4",
