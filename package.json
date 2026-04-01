@@ -16,8 +16,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html --no-cache",
-    "build": "npx parcel build index.html --public-url ./ --no-cache --no-source-maps"
+    "start": "parcel index.html --no-cache --low-memory",
+    "build": "npx parcel build index.html --public-url ./ --no-cache --no-source-maps --low-memory"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
