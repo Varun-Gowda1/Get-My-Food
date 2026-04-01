@@ -17,7 +17,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html --no-cache",
-    "build": "npx parcel build index.html --public-url ./ --no-cache"
+    "build": "npx parcel build index.html --public-url ./ --no-cache --no-source-maps"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
