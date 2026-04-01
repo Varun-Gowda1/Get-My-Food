@@ -2,14 +2,22 @@
   "name": "make-my-food",
   "version": "1.0.0",
   "description": "Make my food is an application for online food delivery",
+  "homepage": "https://github.com/PradeepSaiC/make-my-food#readme",
+  "bugs": {
+    "url": "https://github.com/PradeepSaiC/make-my-food/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradeepSaiC/make-my-food.git"
+  },
   "source": "index.html",
   "license": "ISC",
-  "author": "Varun",
+  "author": "Sai Pradeep",
   "type": "commonjs",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html",
-    "build": "npx parcel build index.html --public-url ./"
+    "start": "parcel index.html --no-cache",
+    "build": "npx parcel build index.html --public-url ./ --no-cache"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
