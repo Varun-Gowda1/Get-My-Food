@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/PradeepSaiC/make-my-food.git"
   },
+  "source": "index.html".
   "license": "ISC",
   "author": "Sai Pradeep",
   "type": "commonjs",
